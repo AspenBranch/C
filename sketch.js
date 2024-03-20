@@ -27,7 +27,6 @@ function windowResized(){
 var font;
 function setup() {
   smooth();
-  song=loadSound('Beep-Beep.mp3',ok);
   rotSpeed=PI/180;
   antiRotSpeed=TAU;
   createCanvas(windowWidth,windowHeight);
@@ -86,5 +85,4 @@ function draw() {
   fill(0);
   rect(0,-height+transitionY,width,height);
   transitionY=lerp(transitionY,AntitransitionY,0.05);
-  song.setLoop(true);
 }
