@@ -117,6 +117,6 @@ function Ending(){
     fill(255);
     textFont(font, 24);
     noStroke();
-    text("Please reload the site to play again",width/3,height*5/6);
+    text("You Win!",width/3,height*5/6);
     endingX=lerp(endingX,0,0.05);
 }
